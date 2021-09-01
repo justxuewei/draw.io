@@ -1,35 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2021-08-31T11:23:57.483Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="TYRU2qiF90sadTlMyO6O" version="15.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-01T12:49:30.123Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="rvAVQchwrA_bfhWtPzbg" version="15.0.4" type="github">
   <diagram id="xaYmFzyV3KWs3SL5oW9k" name="Page-1">
-    <mxGraphModel dx="1624" dy="875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="iOdx-lv3GObMUQt9LLmE-1" value="Length(24)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iOdx-lv3GObMUQt9LLmE-1" value="Length(24)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="70" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iOdx-lv3GObMUQt9LLmE-2" value="Type(8)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iOdx-lv3GObMUQt9LLmE-2" value="Type(8)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="110" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iOdx-lv3GObMUQt9LLmE-3" value="Flags(8)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iOdx-lv3GObMUQt9LLmE-3" value="Flags(8)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="110" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iOdx-lv3GObMUQt9LLmE-6" value="R" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iOdx-lv3GObMUQt9LLmE-6" value="R" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="150" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iOdx-lv3GObMUQt9LLmE-7" value="Stream Identifier(31)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iOdx-lv3GObMUQt9LLmE-7" value="Stream Identifier(31)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="150" width="310" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iOdx-lv3GObMUQt9LLmE-9" value="Frame Payload(?)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iOdx-lv3GObMUQt9LLmE-9" value="Frame Payload(?)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="190" width="410" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iOdx-lv3GObMUQt9LLmE-11" value="Padding Length(8)" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="iOdx-lv3GObMUQt9LLmE-11" value="Padding Length(8)" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="310" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iOdx-lv3GObMUQt9LLmE-12" value="Data(?)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iOdx-lv3GObMUQt9LLmE-12" value="Data(?)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="350" width="410" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iOdx-lv3GObMUQt9LLmE-13" value="Padding(?)" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="iOdx-lv3GObMUQt9LLmE-13" value="Padding(?)" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="390" width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sB6Q36mGR0t4T9LLO1Ld-1" value="Padding Length(8)" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="490" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sB6Q36mGR0t4T9LLO1Ld-2" value="E" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="530" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sB6Q36mGR0t4T9LLO1Ld-3" value="&lt;span style=&quot;background-color: inherit ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;andale mono&amp;#34; , &amp;#34;lucida console&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: inherit ; color: rgb(18 , 18 , 18)&quot;&gt;Stream Dependency&lt;/span&gt;(31)" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="530" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sB6Q36mGR0t4T9LLO1Ld-4" value="Weight(8)" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="570" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sB6Q36mGR0t4T9LLO1Ld-5" value="Header Block Fragment(?)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="610" width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sB6Q36mGR0t4T9LLO1Ld-6" value="Padding(?)" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="650" width="410" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
