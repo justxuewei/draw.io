@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-07T07:41:25.242Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="qLyMAy_DyApBp3Z_u9BI" version="15.8.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-12-07T07:44:19.057Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="l9IbQlMAR5PjQmsHpE15" version="15.8.8" type="github" pages="4">
   <diagram id="icxAoqO_NDGn48_VX5r9" name="Page-1">
     <mxGraphModel dx="1370" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -321,7 +321,7 @@
         <mxCell id="-BYxVWtTHGIyv_tboRlT-0" />
         <mxCell id="-BYxVWtTHGIyv_tboRlT-1" parent="-BYxVWtTHGIyv_tboRlT-0" />
         <mxCell id="-BYxVWtTHGIyv_tboRlT-19" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="-BYxVWtTHGIyv_tboRlT-1">
-          <mxGeometry x="210" y="260" width="440" height="170" as="geometry" />
+          <mxGeometry x="210" y="260" width="650" height="170" as="geometry" />
         </mxCell>
         <mxCell id="-BYxVWtTHGIyv_tboRlT-17" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="-BYxVWtTHGIyv_tboRlT-1">
           <mxGeometry x="75" y="260" width="120" height="170" as="geometry" />
@@ -332,6 +332,11 @@
         <mxCell id="-BYxVWtTHGIyv_tboRlT-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="-BYxVWtTHGIyv_tboRlT-1" source="-BYxVWtTHGIyv_tboRlT-3" target="-BYxVWtTHGIyv_tboRlT-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="360" y="330" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-BYxVWtTHGIyv_tboRlT-24" value="产生新交互&lt;br&gt;数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-BYxVWtTHGIyv_tboRlT-9">
+          <mxGeometry x="-0.2857" y="-1" relative="1" as="geometry">
+            <mxPoint x="5" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-BYxVWtTHGIyv_tboRlT-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="-BYxVWtTHGIyv_tboRlT-1" source="-BYxVWtTHGIyv_tboRlT-8" target="-BYxVWtTHGIyv_tboRlT-10">
@@ -346,28 +351,34 @@
         <mxCell id="-BYxVWtTHGIyv_tboRlT-10" value="更新模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-BYxVWtTHGIyv_tboRlT-1">
           <mxGeometry x="440" y="310" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-BYxVWtTHGIyv_tboRlT-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="-BYxVWtTHGIyv_tboRlT-1" source="-BYxVWtTHGIyv_tboRlT-13" target="-BYxVWtTHGIyv_tboRlT-3">
+        <mxCell id="-BYxVWtTHGIyv_tboRlT-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="-BYxVWtTHGIyv_tboRlT-1" source="-BYxVWtTHGIyv_tboRlT-21" target="-BYxVWtTHGIyv_tboRlT-3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="605" y="440" />
-              <mxPoint x="50" y="440" />
+              <mxPoint x="755" y="450" />
+              <mxPoint x="50" y="450" />
               <mxPoint x="50" y="330" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-BYxVWtTHGIyv_tboRlT-16" value="返回最新&lt;br&gt;推荐结果给用户" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-BYxVWtTHGIyv_tboRlT-15">
-          <mxGeometry x="-0.9103" y="1" relative="1" as="geometry">
+        <mxCell id="-BYxVWtTHGIyv_tboRlT-23" value="向用户展示最新推荐结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-BYxVWtTHGIyv_tboRlT-15">
+          <mxGeometry x="-0.0977" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="-BYxVWtTHGIyv_tboRlT-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="-BYxVWtTHGIyv_tboRlT-1" source="-BYxVWtTHGIyv_tboRlT-13" target="-BYxVWtTHGIyv_tboRlT-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-BYxVWtTHGIyv_tboRlT-13" value="更新&lt;br&gt;推荐结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-BYxVWtTHGIyv_tboRlT-1">
           <mxGeometry x="570" y="310" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-BYxVWtTHGIyv_tboRlT-18" value="服务前端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="-BYxVWtTHGIyv_tboRlT-1">
-          <mxGeometry x="75" y="260" width="60" height="20" as="geometry" />
+        <mxCell id="-BYxVWtTHGIyv_tboRlT-18" value="服务前端：数据采集" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="-BYxVWtTHGIyv_tboRlT-1">
+          <mxGeometry x="75" y="260" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="-BYxVWtTHGIyv_tboRlT-20" value="服务后端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="-BYxVWtTHGIyv_tboRlT-1">
-          <mxGeometry x="210" y="260" width="60" height="20" as="geometry" />
+        <mxCell id="-BYxVWtTHGIyv_tboRlT-20" value="服务后端：模型更新和推荐结果返回" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="-BYxVWtTHGIyv_tboRlT-1">
+          <mxGeometry x="210" y="260" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-BYxVWtTHGIyv_tboRlT-21" value="缓存推荐结果到内存型 NoSQL 数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-BYxVWtTHGIyv_tboRlT-1">
+          <mxGeometry x="700" y="310" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
